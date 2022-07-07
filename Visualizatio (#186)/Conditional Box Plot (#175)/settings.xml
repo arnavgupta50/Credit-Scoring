@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="numCol_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="numCol" type="xstring" value="installment"/>
+        <config key="backgroundColor_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="backgroundColor">
+            <entry key="Red" type="xint" value="255"/>
+            <entry key="Green" type="xint" value="255"/>
+            <entry key="Blue" type="xint" value="255"/>
+            <entry key="Alpha" type="xint" value="255"/>
+        </config>
+        <config key="svg_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_svg"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="svg">
+            <entry key="width" type="xint" value="800"/>
+            <entry key="height" type="xint" value="600"/>
+            <entry key="fullscreen" type="xboolean" value="true"/>
+            <entry key="showFullscreen" type="xboolean" value="true"/>
+        </config>
+        <config key="enableSwitchMissValClass_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableSwitchMissValClass" type="xboolean" value="true"/>
+        <config key="columns_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="columns">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="installment"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="85"/>
+                <entry key="0" type="xstring" value="loan_amnt"/>
+                <entry key="1" type="xstring" value="int_rate"/>
+                <entry key="2" type="xstring" value="annual_inc"/>
+                <entry key="3" type="xstring" value="dti"/>
+                <entry key="4" type="xstring" value="open_acc"/>
+                <entry key="5" type="xstring" value="pub_rec"/>
+                <entry key="6" type="xstring" value="revol_bal"/>
+                <entry key="7" type="xstring" value="revol_util"/>
+                <entry key="8" type="xstring" value="total_acc"/>
+                <entry key="9" type="xstring" value="mort_acc"/>
+                <entry key="10" type="xstring" value="pub_rec_bankruptcies"/>
+                <entry key="11" type="xstring" value="emp_length"/>
+                <entry key="12" type="xstring" value="zip_code"/>
+                <entry key="13" type="xstring" value="delinq_2yrs"/>
+                <entry key="14" type="xstring" value="fico_range_low"/>
+                <entry key="15" type="xstring" value="inq_last_6mths"/>
+                <entry key="16" type="xstring" value="mths_since_last_delinq"/>
+                <entry key="17" type="xstring" value="mths_since_last_record"/>
+                <entry key="18" type="xstring" value="collections_12_mths_ex_med"/>
+                <entry key="19" type="xstring" value="mths_since_last_major_derog"/>
+                <entry key="20" type="xstring" value="annual_inc_joint"/>
+                <entry key="21" type="xstring" value="dti_joint"/>
+                <entry key="22" type="xstring" value="acc_now_delinq"/>
+                <entry key="23" type="xstring" value="tot_coll_amt"/>
+                <entry key="24" type="xstring" value="tot_cur_bal"/>
+                <entry key="25" type="xstring" value="open_acc_6m"/>
+                <entry key="26" type="xstring" value="open_act_il"/>
+                <entry key="27" type="xstring" value="open_il_12m"/>
+                <entry key="28" type="xstring" value="open_il_24m"/>
+                <entry key="29" type="xstring" value="mths_since_rcnt_il"/>
+                <entry key="30" type="xstring" value="total_bal_il"/>
+                <entry key="31" type="xstring" value="il_util"/>
+                <entry key="32" type="xstring" value="open_rv_12m"/>
+                <entry key="33" type="xstring" value="open_rv_24m"/>
+                <entry key="34" type="xstring" value="max_bal_bc"/>
+                <entry key="35" type="xstring" value="all_util"/>
+                <entry key="36" type="xstring" value="total_rev_hi_lim"/>
+                <entry key="37" type="xstring" value="inq_fi"/>
+                <entry key="38" type="xstring" value="total_cu_tl"/>
+                <entry key="39" type="xstring" value="inq_last_12m"/>
+                <entry key="40" type="xstring" value="acc_open_past_24mths"/>
+                <entry key="41" type="xstring" value="avg_cur_bal"/>
+                <entry key="42" type="xstring" value="bc_open_to_buy"/>
+                <entry key="43" type="xstring" value="bc_util"/>
+                <entry key="44" type="xstring" value="chargeoff_within_12_mths"/>
+                <entry key="45" type="xstring" value="delinq_amnt"/>
+                <entry key="46" type="xstring" value="mo_sin_old_il_acct"/>
+                <entry key="47" type="xstring" value="mo_sin_old_rev_tl_op"/>
+                <entry key="48" type="xstring" value="mo_sin_rcnt_rev_tl_op"/>
+                <entry key="49" type="xstring" value="mo_sin_rcnt_tl"/>
+                <entry key="50" type="xstring" value="mths_since_recent_bc"/>
+                <entry key="51" type="xstring" value="mths_since_recent_bc_dlq"/>
+                <entry key="52" type="xstring" value="mths_since_recent_inq"/>
+                <entry key="53" type="xstring" value="mths_since_recent_revol_delinq"/>
+                <entry key="54" type="xstring" value="num_accts_ever_120_pd"/>
+                <entry key="55" type="xstring" value="num_actv_bc_tl"/>
+                <entry key="56" type="xstring" value="num_actv_rev_tl"/>
+                <entry key="57" type="xstring" value="num_bc_sats"/>
+                <entry key="58" type="xstring" value="num_bc_tl"/>
+                <entry key="59" type="xstring" value="num_il_tl"/>
+                <entry key="60" type="xstring" value="num_op_rev_tl"/>
+                <entry key="61" type="xstring" value="num_rev_accts"/>
+                <entry key="62" type="xstring" value="num_sats"/>
+                <entry key="63" type="xstring" value="num_tl_120dpd_2m"/>
+                <entry key="64" type="xstring" value="num_tl_30dpd"/>
+                <entry key="65" type="xstring" value="num_tl_90g_dpd_24m"/>
+                <entry key="66" type="xstring" value="num_tl_op_past_12m"/>
+                <entry key="67" type="xstring" value="pct_tl_nvr_dlq"/>
+                <entry key="68" type="xstring" value="percent_bc_gt_75"/>
+                <entry key="69" type="xstring" value="tax_liens"/>
+                <entry key="70" type="xstring" value="tot_hi_cred_lim"/>
+                <entry key="71" type="xstring" value="total_bal_ex_mort"/>
+                <entry key="72" type="xstring" value="total_bc_limit"/>
+                <entry key="73" type="xstring" value="total_il_high_credit_limit"/>
+                <entry key="74" type="xstring" value="revol_bal_joint"/>
+                <entry key="75" type="xstring" value="sec_app_fico_range_low"/>
+                <entry key="76" type="xstring" value="sec_app_inq_last_6mths"/>
+                <entry key="77" type="xstring" value="sec_app_mort_acc"/>
+                <entry key="78" type="xstring" value="sec_app_open_acc"/>
+                <entry key="79" type="xstring" value="sec_app_revol_util"/>
+                <entry key="80" type="xstring" value="sec_app_open_act_il"/>
+                <entry key="81" type="xstring" value="sec_app_num_rev_accts"/>
+                <entry key="82" type="xstring" value="sec_app_chargeoff_within_12_mths"/>
+                <entry key="83" type="xstring" value="sec_app_collections_12_mths_ex_med"/>
+                <entry key="84" type="xstring" value="sec_app_mths_since_last_major_derog"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="boxColor_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <config key="boxColor">
+            <entry key="Red" type="xint" value="255"/>
+            <entry key="Green" type="xint" value="255"/>
+            <entry key="Blue" type="xint" value="255"/>
+            <entry key="Alpha" type="xint" value="255"/>
+        </config>
+        <config key="enableTitleEdit_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableTitleEdit" type="xboolean" value="true"/>
+        <config key="displayFullscreen_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="displayFullscreen" type="xboolean" value="true"/>
+        <config key="title_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="title" type="xstring" value="Loan Amnt vs Installment"/>
+        <config key="applyColors_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="applyColors" type="xboolean" value="true"/>
+        <config key="failOnSpecialDoubles_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="failOnSpecialDoubles" type="xboolean" value="true"/>
+        <config key="reportOnMissingValues_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="reportOnMissingValues" type="xboolean" value="true"/>
+        <config key="includeMissValClass_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="includeMissValClass" type="xboolean" value="true"/>
+        <config key="catCol_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="catCol" type="xstring" value="loan_status"/>
+        <config key="subtitle_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="subtitle" type="xstring" value=""/>
+        <config key="enableViewControls_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableViewControls" type="xboolean" value="true"/>
+        <config key="enableColumnSelection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableColumnSelection" type="xboolean" value="true"/>
+        <config key="showWarnings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="showWarnings" type="xboolean" value="true"/>
+        <config key="enableSubtitleEdit_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="enableSubtitleEdit" type="xboolean" value="true"/>
+        <config key="daColor_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="daColor">
+            <entry key="Red" type="xint" value="255"/>
+            <entry key="Green" type="xint" value="255"/>
+            <entry key="Blue" type="xint" value="255"/>
+            <entry key="Alpha" type="xint" value="255"/>
+        </config>
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="maxRows" type="xint" value="2500"/>
+        <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="customCSS" type="xstring" value=""/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Loan Amount vs Installment%%00013%%00010"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="225"/>
+        <entry key="y-coordinate" type="xint" value="799"/>
+        <entry key="width" type="xint" value="151"/>
+        <entry key="height" type="xint" value="30"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Conditional Box Plot"/>
+    <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.dynamic.js.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202110040909"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202111241450"/>
+    <config key="factory_settings">
+        <entry key="nodeDir" type="xstring" value="org.knime.dynamic.js.base:nodes/:cond_boxplot_v2"/>
+    </config>
+    <entry key="name" type="xstring" value="Conditional Box Plot"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.inactive.InactiveBranchPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Inactive Port Object"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
